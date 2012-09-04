@@ -457,24 +457,24 @@ input, textarea, select {
 
 /* line 170, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-tl {
-  background-image: url('../../resources/themes/images/default/box/corners.gif'); }
+  background-image: url('../themes/images/default/box/corners.gif'); }
 
 /* line 174, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-tc {
-  background-image: url('../../resources/themes/images/default/box/tb.gif'); }
+  background-image: url('../themes/images/default/box/tb.gif'); }
 
 /* line 178, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-tr {
-  background-image: url('../../resources/themes/images/default/box/corners.gif'); }
+  background-image: url('../themes/images/default/box/corners.gif'); }
 
 /* line 182, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-ml {
-  background-image: url('../../resources/themes/images/default/box/l.gif'); }
+  background-image: url('../themes/images/default/box/l.gif'); }
 
 /* line 186, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-mc {
   background-color: #eee;
-  background-image: url('../../resources/themes/images/default/box/tb.gif');
+  background-image: url('../themes/images/default/box/tb.gif');
   font-family: "Myriad Pro","Myriad Web","Tahoma","Helvetica","Arial",sans-serif;
   color: #393939;
   font-size: 15px; }
@@ -486,27 +486,27 @@ input, textarea, select {
 
 /* line 199, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-mr {
-  background-image: url('../../resources/themes/images/default/box/r.gif'); }
+  background-image: url('../themes/images/default/box/r.gif'); }
 
 /* line 203, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-bl {
-  background-image: url('../../resources/themes/images/default/box/corners.gif'); }
+  background-image: url('../themes/images/default/box/corners.gif'); }
 
 /* line 207, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-bc {
-  background-image: url('../../resources/themes/images/default/box/tb.gif'); }
+  background-image: url('../themes/images/default/box/tb.gif'); }
 
 /* line 211, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-br {
-  background-image: url('../../resources/themes/images/default/box/corners.gif'); }
+  background-image: url('../themes/images/default/box/corners.gif'); }
 
 /* line 215, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-blue .x4-box-bl, .x4-box-blue .x4-box-br, .x4-box-blue .x4-box-tl, .x4-box-blue .x4-box-tr {
-  background-image: url('../../resources/themes/images/default/box/corners-blue.gif'); }
+  background-image: url('../themes/images/default/box/corners-blue.gif'); }
 
 /* line 219, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-blue .x4-box-bc, .x4-box-blue .x4-box-mc, .x4-box-blue .x4-box-tc {
-  background-image: url('../../resources/themes/images/default/box/tb-blue.gif'); }
+  background-image: url('../themes/images/default/box/tb-blue.gif'); }
 
 /* line 223, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-blue .x4-box-mc {
@@ -518,11 +518,11 @@ input, textarea, select {
 
 /* line 231, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-blue .x4-box-ml {
-  background-image: url('../../resources/themes/images/default/box/l-blue.gif'); }
+  background-image: url('../themes/images/default/box/l-blue.gif'); }
 
 /* line 235, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-box-blue .x4-box-mr {
-  background-image: url('../../resources/themes/images/default/box/r-blue.gif'); }
+  background-image: url('../themes/images/default/box/r-blue.gif'); }
 
 /* line 239, ../themes/stylesheets/ext4/default/core/_core.scss */
 .x4-container {
@@ -721,7 +721,7 @@ tr.x4-container:before {
   /* line 38, ../themes/stylesheets/ext4/default/widgets/_loadmask.scss */
   .x4-mask-msg div {
     padding: 5px 10px 5px 25px;
-    background-image: url('../../resources/themes/images/default/grid/loading.gif');
+    background-image: url('../themes/images/default/grid/loading.gif');
     background-repeat: no-repeat;
     background-position: 5px center;
     cursor: wait;
@@ -958,31 +958,31 @@ tr.x4-container:before {
 
 /* line 198, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-arrow {
-  background-image: url('../../resources/themes/images/default/button/arrow.gif');
+  background-image: url('../themes/images/default/button/arrow.gif');
   display: block; }
 
 /* line 206, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-split-right,
 .x4-btn-over .x4-btn-split-right {
   background: transparent no-repeat right center;
-  background-image: url('../../resources/themes/images/default/button/s-arrow.gif');
+  background-image: url('../themes/images/default/button/s-arrow.gif');
   padding-right: 14px !important; }
 
 /* line 213, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-split-bottom,
 .x4-btn-over .x4-btn-split-bottom {
   background: transparent no-repeat center bottom;
-  background-image: url('../../resources/themes/images/default/button/s-arrow-b.gif');
+  background-image: url('../themes/images/default/button/s-arrow-b.gif');
   padding-bottom: 14px; }
 
 /* line 219, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-toolbar .x4-btn-split-right {
-  background-image: url('../../resources/themes/images/default/button/s-arrow-noline.gif');
+  background-image: url('../themes/images/default/button/s-arrow-noline.gif');
   padding-right: 12px !important; }
 
 /* line 224, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-toolbar .x4-btn-split-bottom {
-  background-image: url('../../resources/themes/images/default/button/s-arrow-b-noline.gif'); }
+  background-image: url('../themes/images/default/button/s-arrow-b-noline.gif'); }
 
 /* line 228, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-split {
@@ -999,11 +999,11 @@ tr.x4-container:before {
 
 /* line 241, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-over .x4-btn-split-right {
-  background-image: url('../../resources/themes/images/default/button/s-arrow-o.gif'); }
+  background-image: url('../themes/images/default/button/s-arrow-o.gif'); }
 
 /* line 242, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-over .x4-btn-split-bottom {
-  background-image: url('../../resources/themes/images/default/button/s-arrow-bo.gif'); }
+  background-image: url('../themes/images/default/button/s-arrow-bo.gif'); }
 
 /* line 637, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-default-small {
@@ -1031,7 +1031,7 @@ tr.x4-container:before {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-btn-default-small-mc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-bg.gif');
+  background-image: url('../themes/images/default/btn/btn-default-small-bg.gif');
   background-color: white; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -1056,12 +1056,12 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-small-ml,
 .x4-nbr .x4-btn-default-small-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-btn-default-small-ml,
 .x4-nbr .x4-btn-default-small-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-sides.gif');
+  background-image: url('../themes/images/default/btn/btn-default-small-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-btn-default-small-mc {
@@ -1246,15 +1246,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-small-over .x4-frame-br,
 .x4-nbr .x4-btn-default-small-over .x4-frame-tc,
 .x4-nbr .x4-btn-default-small-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-over-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-over-corners.gif'); }
 /* line 902, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-over .x4-frame-ml,
 .x4-nbr .x4-btn-default-small-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-over-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-over-sides.gif'); }
 /* line 905, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-over .x4-frame-mc {
   background-color: #e4f3ff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-over-bg.gif'); }
 /* line 919, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-focus .x4-frame-tl,
 .x4-nbr .x4-btn-default-small-focus .x4-frame-bl,
@@ -1262,15 +1262,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-small-focus .x4-frame-br,
 .x4-nbr .x4-btn-default-small-focus .x4-frame-tc,
 .x4-nbr .x4-btn-default-small-focus .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-focus-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-focus-corners.gif'); }
 /* line 923, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-focus .x4-frame-ml,
 .x4-nbr .x4-btn-default-small-focus .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-focus-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-focus-sides.gif'); }
 /* line 926, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-focus .x4-frame-mc {
   background-color: #e4f3ff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-focus-bg.gif'); }
 /* line 941, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-menu-active .x4-frame-tl,
 .x4-nbr .x4-btn-default-small-menu-active .x4-frame-bl,
@@ -1284,18 +1284,18 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-small-pressed .x4-frame-br,
 .x4-nbr .x4-btn-default-small-pressed .x4-frame-tc,
 .x4-nbr .x4-btn-default-small-pressed .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-pressed-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-pressed-corners.gif'); }
 /* line 945, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-menu-active .x4-frame-ml,
 .x4-nbr .x4-btn-default-small-menu-active .x4-frame-mr,
 .x4-nbr .x4-btn-default-small-pressed .x4-frame-ml,
 .x4-nbr .x4-btn-default-small-pressed .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-pressed-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-pressed-sides.gif'); }
 /* line 948, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-menu-active .x4-frame-mc,
 .x4-nbr .x4-btn-default-small-pressed .x4-frame-mc {
   background-color: #b6cbe4;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-pressed-bg.gif'); }
 /* line 962, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-tl,
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-bl,
@@ -1303,41 +1303,41 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-br,
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-tc,
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-disabled-corners.gif'); }
 /* line 966, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-ml,
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-disabled-sides.gif'); }
 /* line 969, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-small-disabled .x4-frame-mc {
   background-color: #f7f7f7;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-disabled-bg.gif'); }
 
 /* line 982, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-small {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-bg.gif'); }
 
 /* line 991, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-small-over {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-over-bg.gif'); }
 
 /* line 1000, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-small-focus {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-focus-bg.gif'); }
 
 /* line 1010, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-small-menu-active,
 .x4-nlg .x4-btn-default-small-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-pressed-bg.gif'); }
 
 /* line 1019, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-small-disabled {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-small-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-small-disabled-bg.gif'); }
 
 /* line 637, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-default-medium {
@@ -1365,7 +1365,7 @@ tr.x4-container:before {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-btn-default-medium-mc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-bg.gif');
+  background-image: url('../themes/images/default/btn/btn-default-medium-bg.gif');
   background-color: white; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -1390,12 +1390,12 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-medium-ml,
 .x4-nbr .x4-btn-default-medium-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-btn-default-medium-ml,
 .x4-nbr .x4-btn-default-medium-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-sides.gif');
+  background-image: url('../themes/images/default/btn/btn-default-medium-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-btn-default-medium-mc {
@@ -1580,15 +1580,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-medium-over .x4-frame-br,
 .x4-nbr .x4-btn-default-medium-over .x4-frame-tc,
 .x4-nbr .x4-btn-default-medium-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-over-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-over-corners.gif'); }
 /* line 902, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-over .x4-frame-ml,
 .x4-nbr .x4-btn-default-medium-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-over-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-over-sides.gif'); }
 /* line 905, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-over .x4-frame-mc {
   background-color: #e4f3ff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-over-bg.gif'); }
 /* line 919, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-tl,
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-bl,
@@ -1596,15 +1596,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-br,
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-tc,
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-focus-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-focus-corners.gif'); }
 /* line 923, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-ml,
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-focus-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-focus-sides.gif'); }
 /* line 926, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-focus .x4-frame-mc {
   background-color: #e4f3ff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-focus-bg.gif'); }
 /* line 941, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-menu-active .x4-frame-tl,
 .x4-nbr .x4-btn-default-medium-menu-active .x4-frame-bl,
@@ -1618,18 +1618,18 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-medium-pressed .x4-frame-br,
 .x4-nbr .x4-btn-default-medium-pressed .x4-frame-tc,
 .x4-nbr .x4-btn-default-medium-pressed .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-pressed-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-pressed-corners.gif'); }
 /* line 945, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-menu-active .x4-frame-ml,
 .x4-nbr .x4-btn-default-medium-menu-active .x4-frame-mr,
 .x4-nbr .x4-btn-default-medium-pressed .x4-frame-ml,
 .x4-nbr .x4-btn-default-medium-pressed .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-pressed-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-pressed-sides.gif'); }
 /* line 948, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-menu-active .x4-frame-mc,
 .x4-nbr .x4-btn-default-medium-pressed .x4-frame-mc {
   background-color: #b6cbe4;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-pressed-bg.gif'); }
 /* line 962, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-tl,
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-bl,
@@ -1637,41 +1637,41 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-br,
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-tc,
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-disabled-corners.gif'); }
 /* line 966, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-ml,
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-disabled-sides.gif'); }
 /* line 969, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-medium-disabled .x4-frame-mc {
   background-color: #f7f7f7;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-disabled-bg.gif'); }
 
 /* line 982, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-medium {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-bg.gif'); }
 
 /* line 991, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-medium-over {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-over-bg.gif'); }
 
 /* line 1000, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-medium-focus {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-focus-bg.gif'); }
 
 /* line 1010, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-medium-menu-active,
 .x4-nlg .x4-btn-default-medium-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-pressed-bg.gif'); }
 
 /* line 1019, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-medium-disabled {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-medium-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-medium-disabled-bg.gif'); }
 
 /* line 637, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-default-large {
@@ -1699,7 +1699,7 @@ tr.x4-container:before {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-btn-default-large-mc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-bg.gif');
+  background-image: url('../themes/images/default/btn/btn-default-large-bg.gif');
   background-color: white; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -1724,12 +1724,12 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-large-ml,
 .x4-nbr .x4-btn-default-large-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-btn-default-large-ml,
 .x4-nbr .x4-btn-default-large-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-sides.gif');
+  background-image: url('../themes/images/default/btn/btn-default-large-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-btn-default-large-mc {
@@ -1914,15 +1914,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-large-over .x4-frame-br,
 .x4-nbr .x4-btn-default-large-over .x4-frame-tc,
 .x4-nbr .x4-btn-default-large-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-over-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-over-corners.gif'); }
 /* line 902, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-over .x4-frame-ml,
 .x4-nbr .x4-btn-default-large-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-over-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-over-sides.gif'); }
 /* line 905, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-over .x4-frame-mc {
   background-color: #e4f3ff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-over-bg.gif'); }
 /* line 919, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-focus .x4-frame-tl,
 .x4-nbr .x4-btn-default-large-focus .x4-frame-bl,
@@ -1930,15 +1930,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-large-focus .x4-frame-br,
 .x4-nbr .x4-btn-default-large-focus .x4-frame-tc,
 .x4-nbr .x4-btn-default-large-focus .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-focus-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-focus-corners.gif'); }
 /* line 923, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-focus .x4-frame-ml,
 .x4-nbr .x4-btn-default-large-focus .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-focus-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-focus-sides.gif'); }
 /* line 926, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-focus .x4-frame-mc {
   background-color: #e4f3ff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-focus-bg.gif'); }
 /* line 941, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-menu-active .x4-frame-tl,
 .x4-nbr .x4-btn-default-large-menu-active .x4-frame-bl,
@@ -1952,18 +1952,18 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-large-pressed .x4-frame-br,
 .x4-nbr .x4-btn-default-large-pressed .x4-frame-tc,
 .x4-nbr .x4-btn-default-large-pressed .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-pressed-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-pressed-corners.gif'); }
 /* line 945, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-menu-active .x4-frame-ml,
 .x4-nbr .x4-btn-default-large-menu-active .x4-frame-mr,
 .x4-nbr .x4-btn-default-large-pressed .x4-frame-ml,
 .x4-nbr .x4-btn-default-large-pressed .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-pressed-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-pressed-sides.gif'); }
 /* line 948, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-menu-active .x4-frame-mc,
 .x4-nbr .x4-btn-default-large-pressed .x4-frame-mc {
   background-color: #b6cbe4;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-pressed-bg.gif'); }
 /* line 962, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-tl,
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-bl,
@@ -1971,41 +1971,41 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-br,
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-tc,
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-disabled-corners.gif'); }
 /* line 966, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-ml,
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-disabled-sides.gif'); }
 /* line 969, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-large-disabled .x4-frame-mc {
   background-color: #f7f7f7;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-disabled-bg.gif'); }
 
 /* line 982, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-large {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-bg.gif'); }
 
 /* line 991, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-large-over {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-over-bg.gif'); }
 
 /* line 1000, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-large-focus {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-focus-bg.gif'); }
 
 /* line 1010, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-large-menu-active,
 .x4-nlg .x4-btn-default-large-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-pressed-bg.gif'); }
 
 /* line 1019, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-large-disabled {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-large-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-large-disabled-bg.gif'); }
 
 /* line 637, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-default-toolbar-small {
@@ -2230,15 +2230,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-small-over .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-small-over .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-small-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-over-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-over-corners.gif'); }
 /* line 902, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-over .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-small-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-over-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-over-sides.gif'); }
 /* line 905, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-over .x4-frame-mc {
   background-color: #dbeeff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-over-bg.gif'); }
 /* line 919, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-bl,
@@ -2246,15 +2246,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-focus-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-focus-corners.gif'); }
 /* line 923, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-focus-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-focus-sides.gif'); }
 /* line 926, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-focus .x4-frame-mc {
   background-color: #dbeeff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif'); }
 /* line 941, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-menu-active .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-small-menu-active .x4-frame-bl,
@@ -2268,18 +2268,18 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-small-pressed .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-small-pressed .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-small-pressed .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-pressed-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-pressed-corners.gif'); }
 /* line 945, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-menu-active .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-small-menu-active .x4-frame-mr,
 .x4-nbr .x4-btn-default-toolbar-small-pressed .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-small-pressed .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-pressed-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-pressed-sides.gif'); }
 /* line 948, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-menu-active .x4-frame-mc,
 .x4-nbr .x4-btn-default-toolbar-small-pressed .x4-frame-mc {
   background-color: #bccfe5;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif'); }
 /* line 962, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-bl,
@@ -2287,11 +2287,11 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-disabled-corners.gif'); }
 /* line 966, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-disabled-sides.gif'); }
 /* line 969, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-small-disabled .x4-frame-mc {
   background-color: transparent; }
@@ -2299,18 +2299,18 @@ tr.x4-container:before {
 /* line 991, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-small-over {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-over-bg.gif'); }
 
 /* line 1000, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-small-focus {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-focus-bg.gif'); }
 
 /* line 1010, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-small-menu-active,
 .x4-nlg .x4-btn-default-toolbar-small-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-small-pressed-bg.gif'); }
 
 /* line 637, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-default-toolbar-medium {
@@ -2535,15 +2535,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-medium-over .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-medium-over .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-medium-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-over-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-over-corners.gif'); }
 /* line 902, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-over .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-medium-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-over-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-over-sides.gif'); }
 /* line 905, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-over .x4-frame-mc {
   background-color: #dbeeff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif'); }
 /* line 919, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-bl,
@@ -2551,15 +2551,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-focus-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-focus-corners.gif'); }
 /* line 923, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-focus-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-focus-sides.gif'); }
 /* line 926, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-focus .x4-frame-mc {
   background-color: #dbeeff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif'); }
 /* line 941, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-menu-active .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-medium-menu-active .x4-frame-bl,
@@ -2573,18 +2573,18 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-medium-pressed .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-medium-pressed .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-medium-pressed .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-pressed-corners.gif'); }
 /* line 945, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-menu-active .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-medium-menu-active .x4-frame-mr,
 .x4-nbr .x4-btn-default-toolbar-medium-pressed .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-medium-pressed .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-pressed-sides.gif'); }
 /* line 948, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-menu-active .x4-frame-mc,
 .x4-nbr .x4-btn-default-toolbar-medium-pressed .x4-frame-mc {
   background-color: #bccfe5;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif'); }
 /* line 962, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-bl,
@@ -2592,11 +2592,11 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-disabled-corners.gif'); }
 /* line 966, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-disabled-sides.gif'); }
 /* line 969, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-medium-disabled .x4-frame-mc {
   background-color: transparent; }
@@ -2604,18 +2604,18 @@ tr.x4-container:before {
 /* line 991, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-medium-over {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-over-bg.gif'); }
 
 /* line 1000, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-medium-focus {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-focus-bg.gif'); }
 
 /* line 1010, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-medium-menu-active,
 .x4-nlg .x4-btn-default-toolbar-medium-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-medium-pressed-bg.gif'); }
 
 /* line 637, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-default-toolbar-large {
@@ -2840,15 +2840,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-large-over .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-large-over .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-large-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-over-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-over-corners.gif'); }
 /* line 902, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-over .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-large-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-over-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-over-sides.gif'); }
 /* line 905, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-over .x4-frame-mc {
   background-color: #dbeeff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-over-bg.gif'); }
 /* line 919, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-bl,
@@ -2856,15 +2856,15 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-focus-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-focus-corners.gif'); }
 /* line 923, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-focus-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-focus-sides.gif'); }
 /* line 926, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-focus .x4-frame-mc {
   background-color: #dbeeff;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif'); }
 /* line 941, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-menu-active .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-large-menu-active .x4-frame-bl,
@@ -2878,18 +2878,18 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-large-pressed .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-large-pressed .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-large-pressed .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-pressed-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-pressed-corners.gif'); }
 /* line 945, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-menu-active .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-large-menu-active .x4-frame-mr,
 .x4-nbr .x4-btn-default-toolbar-large-pressed .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-large-pressed .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-pressed-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-pressed-sides.gif'); }
 /* line 948, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-menu-active .x4-frame-mc,
 .x4-nbr .x4-btn-default-toolbar-large-pressed .x4-frame-mc {
   background-color: #bccfe5;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif'); }
 /* line 962, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-tl,
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-bl,
@@ -2897,11 +2897,11 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-br,
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-tc,
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-disabled-corners.gif'); }
 /* line 966, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-ml,
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-disabled-sides.gif'); }
 /* line 969, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nbr .x4-btn-default-toolbar-large-disabled .x4-frame-mc {
   background-color: transparent; }
@@ -2909,18 +2909,18 @@ tr.x4-container:before {
 /* line 991, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-large-over {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-over-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-over-bg.gif'); }
 
 /* line 1000, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-large-focus {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-focus-bg.gif'); }
 
 /* line 1010, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-nlg .x4-btn-default-toolbar-large-menu-active,
 .x4-nlg .x4-btn-default-toolbar-large-pressed {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif'); }
+  background-image: url('../themes/images/default/btn/btn-default-toolbar-large-pressed-bg.gif'); }
 
 /* line 571, ../themes/stylesheets/ext4/default/widgets/_button.scss */
 .x4-btn-default-toolbar-small-disabled,
@@ -2987,12 +2987,12 @@ tr.x4-container:before {
 .x4-nbr .x4-btn-group-default-framed-ml,
 .x4-nbr .x4-btn-group-default-framed-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn-group/btn-group-default-framed-corners.gif'); }
+  background-image: url('../themes/images/default/btn-group/btn-group-default-framed-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-btn-group-default-framed-ml,
 .x4-nbr .x4-btn-group-default-framed-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/btn-group/btn-group-default-framed-sides.gif');
+  background-image: url('../themes/images/default/btn-group/btn-group-default-framed-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -3100,14 +3100,14 @@ tr.x4-container:before {
   right: 5px; }
   /* line 72, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
   .x4-datepicker-next a {
-    background-image: url('../../resources/themes/images/default/shared/right-btn.gif'); }
+    background-image: url('../themes/images/default/shared/right-btn.gif'); }
 
 /* line 77, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x4-datepicker-prev {
   left: 5px; }
   /* line 80, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
   .x4-datepicker-prev a {
-    background-image: url('../../resources/themes/images/default/shared/left-btn.gif'); }
+    background-image: url('../themes/images/default/shared/left-btn.gif'); }
 
 /* line 86, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x4-item-disabled .x4-datepicker-prev a:hover,
@@ -3137,7 +3137,7 @@ tr.x4-container:before {
     color: #fff !important; }
   /* line 112, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
   .x4-datepicker-month .x4-btn-split-right {
-    background-image: url('../../resources/themes/images/default/button/s-arrow-light.gif');
+    background-image: url('../themes/images/default/button/s-arrow-light.gif');
     padding-right: 12px; }
 
 /* line 118, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
@@ -3312,7 +3312,7 @@ table.x4-datepicker-inner {
   height: 28px; }
   /* line 331, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
   .x4-monthpicker-yearnav button {
-    background-image: url('../../resources/themes/images/default/tools/tool-sprites.gif');
+    background-image: url('../themes/images/default/tools/tool-sprites.gif');
     height: 15px;
     width: 15px;
     padding: 0;
@@ -3370,13 +3370,13 @@ table.x4-datepicker-inner {
 
 /* line 407, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x4-nlg .x4-datepicker-header {
-  background-image: url('../../resources/themes/images/default/datepicker/datepicker-header-bg.gif');
+  background-image: url('../themes/images/default/datepicker/datepicker-header-bg.gif');
   background-repeat: repeat-x;
   background-position: top left; }
 /* line 416, ../themes/stylesheets/ext4/default/widgets/_datepicker.scss */
 .x4-nlg .x4-datepicker-footer,
 .x4-nlg .x4-monthpicker-buttons {
-  background-image: url('../../resources/themes/images/default/datepicker/datepicker-footer-bg.gif');
+  background-image: url('../themes/images/default/datepicker/datepicker-footer-bg.gif');
   background-repeat: repeat-x;
   background-position: top left; }
 
@@ -3507,14 +3507,14 @@ table.x4-datepicker-inner {
 
 /* line 102, ../themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x4-menu-item-checked .x4-menu-item-icon {
-  background-image: url('../../resources/themes/images/default/menu/checked.gif'); }
+  background-image: url('../themes/images/default/menu/checked.gif'); }
 /* line 105, ../themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x4-menu-item-checked .x4-menu-group-icon {
-  background-image: url('../../resources/themes/images/default/menu/group-checked.gif'); }
+  background-image: url('../themes/images/default/menu/group-checked.gif'); }
 
 /* line 111, ../themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x4-menu-item-unchecked .x4-menu-item-icon {
-  background-image: url('../../resources/themes/images/default/menu/unchecked.gif'); }
+  background-image: url('../themes/images/default/menu/unchecked.gif'); }
 /* line 114, ../themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x4-menu-item-unchecked .x4-menu-group-icon {
   background-image: none; }
@@ -3535,7 +3535,7 @@ table.x4-datepicker-inner {
   top: 9px;
   right: 0px;
   background: no-repeat center center;
-  background-image: url('../../resources/themes/images/default/menu/menu-parent.gif'); }
+  background-image: url('../themes/images/default/menu/menu-parent.gif'); }
 
 /* line 137, ../themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x4-menu-item-indent {
@@ -3593,7 +3593,7 @@ table.x4-datepicker-inner {
 /* line 192, ../themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x4-nlg .x4-menu-item-active .x4-menu-item-link {
   background: #d9e8fb repeat-x left top;
-  background-image: url('../../resources/themes/images/default/menu/menu-item-active-bg.gif'); }
+  background-image: url('../themes/images/default/menu/menu-item-active-bg.gif'); }
 
 /* line 199, ../themes/stylesheets/ext4/default/widgets/_menu.scss */
 .x4-menu-date-item {
@@ -3726,13 +3726,13 @@ table.x4-datepicker-inner {
 .x4-nlg .x4-grid-header-ct,
 .x4-nlg .x4-column-header {
   background: repeat-x 0 top;
-  background-image: url('../../resources/themes/images/default/grid/column-header-bg.gif'); }
+  background-image: url('../themes/images/default/grid/column-header-bg.gif'); }
 /* line 142, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-nlg .x4-column-header-over,
 .x4-nlg .x4-column-header-sort-ASC,
 .x4-nlg .x4-column-header-sort-DESC {
   background: #ebf3fd repeat-x 0 top;
-  background-image: url('../../resources/themes/images/default/grid/column-header-over-bg.gif'); }
+  background-image: url('../themes/images/default/grid/column-header-over-bg.gif'); }
 
 /* line 149, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-column-header-trigger {
@@ -3741,7 +3741,7 @@ table.x4-datepicker-inner {
   width: 14px;
   background: no-repeat left center;
   background-color: #c3daf9;
-  background-image: url('../../resources/themes/images/default/grid/grid3-hd-btn.gif');
+  background-image: url('../themes/images/default/grid/grid3-hd-btn.gif');
   position: absolute;
   right: 0;
   top: 0;
@@ -3772,13 +3772,13 @@ table.x4-datepicker-inner {
 .x4-column-header-sort-ASC .x4-column-header-text {
   padding-right: 16px;
   background: no-repeat right 6px;
-  background-image: url('../../resources/themes/images/default/grid/sort_asc.gif'); }
+  background-image: url('../themes/images/default/grid/sort_asc.gif'); }
 
 /* line 190, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-column-header-sort-DESC .x4-column-header-text {
   padding-right: 16px;
   background: no-repeat right 6px;
-  background-image: url('../../resources/themes/images/default/grid/sort_desc.gif'); }
+  background-image: url('../themes/images/default/grid/sort_desc.gif'); }
 
 /* line 197, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-row {
@@ -3921,7 +3921,7 @@ browsers will do whacky things with it.
 
 /* line 341, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-dirty-cell {
-  background-image: url('../../resources/themes/images/default/grid/dirty.gif');
+  background-image: url('../themes/images/default/grid/dirty.gif');
   background-position: 0 0;
   background-repeat: no-repeat; }
 
@@ -3936,11 +3936,11 @@ browsers will do whacky things with it.
 /* line 359, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-nlg .x4-grid-row .x4-grid-cell-special,
 .x4-nlg .x4-grid-row-over .x4-grid-cell-special {
-  background-image: url('../../resources/themes/images/default/grid/cell-special-bg.gif'); }
+  background-image: url('../themes/images/default/grid/cell-special-bg.gif'); }
 /* line 365, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-nlg .x4-grid-row-focused .x4-grid-cell-special,
 .x4-nlg .x4-grid-row-selected .x4-grid-cell-special {
-  background-image: url('../../resources/themes/images/default/grid/cell-special-selected-bg.gif'); }
+  background-image: url('../themes/images/default/grid/cell-special-selected-bg.gif'); }
 
 /* line 371, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-with-col-lines .x4-grid-cell {
@@ -3951,7 +3951,7 @@ browsers will do whacky things with it.
 .x4-property-grid .x4-grid-row .x4-grid-property-name .x4-grid-cell-inner,
 .x4-property-grid .x4-grid-row-over .x4-grid-property-name .x4-grid-cell-inner {
   padding-left: 12px;
-  background-image: url('../../resources/themes/images/default/grid/property-cell-bg.gif');
+  background-image: url('../themes/images/default/grid/property-cell-bg.gif');
   background-repeat: no-repeat;
   background-position: -16px 2px; }
 
@@ -3995,7 +3995,7 @@ browsers will do whacky things with it.
 
 /* line 430, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-row-expander {
-  background-image: url('../../resources/themes/images/default/grid/group-collapse.gif');
+  background-image: url('../themes/images/default/grid/group-collapse.gif');
   background-color: transparent;
   width: 9px;
   height: 13px;
@@ -4005,7 +4005,7 @@ browsers will do whacky things with it.
 
 /* line 444, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-row-collapsed .x4-grid-row-expander {
-  background-image: url('../../resources/themes/images/default/grid/group-expand.gif'); }
+  background-image: url('../themes/images/default/grid/group-expand.gif'); }
 
 /* line 449, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-resize-marker {
@@ -4029,11 +4029,11 @@ browsers will do whacky things with it.
 
 /* line 471, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .col-move-top {
-  background-image: url('../../resources/themes/images/default/grid/col-move-top.gif'); }
+  background-image: url('../themes/images/default/grid/col-move-top.gif'); }
 
 /* line 475, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .col-move-bottom {
-  background-image: url('../../resources/themes/images/default/grid/col-move-bottom.gif'); }
+  background-image: url('../themes/images/default/grid/col-move-bottom.gif'); }
 
 /* line 480, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-tbar-page-number {
@@ -4060,7 +4060,7 @@ browsers will do whacky things with it.
 /* line 508, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-group-hd-collapsible .x4-grid-group-title {
   background: transparent no-repeat 0 -1px;
-  background-image: url('../../resources/themes/images/default/grid/group-collapse.gif');
+  background-image: url('../themes/images/default/grid/group-collapse.gif');
   padding: 0 0 0 14px; }
 
 /* line 515, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -4070,7 +4070,7 @@ browsers will do whacky things with it.
 
 /* line 521, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-group-hd-collapsed .x4-grid-group-title {
-  background-image: url('../../resources/themes/images/default/grid/group-expand.gif'); }
+  background-image: url('../themes/images/default/grid/group-expand.gif'); }
 
 /* line 526, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-group-collapsed .x4-grid-group-body {
@@ -4078,15 +4078,15 @@ browsers will do whacky things with it.
 
 /* line 530, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-group-collapsed .x4-grid-group-title {
-  background-image: url('../../resources/themes/images/default/grid/group-expand.gif'); }
+  background-image: url('../themes/images/default/grid/group-expand.gif'); }
 
 /* line 534, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-group-by-icon {
-  background-image: url('../../resources/themes/images/default/grid/group-by.gif'); }
+  background-image: url('../themes/images/default/grid/group-by.gif'); }
 
 /* line 538, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-show-groups-icon {
-  background-image: url('../../resources/themes/images/default/grid/group-by.gif'); }
+  background-image: url('../themes/images/default/grid/group-by.gif'); }
 
 /* line 542, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-column-header-checkbox .x4-column-header-inner {
@@ -4103,7 +4103,7 @@ browsers will do whacky things with it.
   height: 14px;
   width: 14px;
   line-height: 0;
-  background-image: url('../../resources/themes/images/default/grid/unchecked.gif');
+  background-image: url('../themes/images/default/grid/unchecked.gif');
   background-position: -1px -1px;
   background-repeat: no-repeat;
   background-color: transparent; }
@@ -4121,7 +4121,7 @@ browsers will do whacky things with it.
 
 /* line 579, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-hd-checker-on .x4-column-header-text {
-  background-image: url('../../resources/themes/images/default/grid/checked.gif'); }
+  background-image: url('../themes/images/default/grid/checked.gif'); }
 
 /* line 583, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-cell-row-checker .x4-grid-cell-inner {
@@ -4141,71 +4141,71 @@ browsers will do whacky things with it.
 /* line 598, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-row-selected .x4-grid-row-checker,
 .x4-grid-row-checked .x4-grid-row-checker {
-  background-image: url('../../resources/themes/images/default/grid/checked.gif'); }
+  background-image: url('../themes/images/default/grid/checked.gif'); }
 
 /* line 603, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-tbar-page-first {
-  background-image: url('../../resources/themes/images/default/grid/page-first.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-first.gif') !important; }
 
 /* line 607, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-tbar-loading {
-  background-image: url('../../resources/themes/images/default/grid/refresh.gif') !important; }
+  background-image: url('../themes/images/default/grid/refresh.gif') !important; }
 
 /* line 611, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-tbar-page-last {
-  background-image: url('../../resources/themes/images/default/grid/page-last.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-last.gif') !important; }
 
 /* line 615, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-tbar-page-next {
-  background-image: url('../../resources/themes/images/default/grid/page-next.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-next.gif') !important; }
 
 /* line 619, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-tbar-page-prev {
-  background-image: url('../../resources/themes/images/default/grid/page-prev.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-prev.gif') !important; }
 
 /* line 624, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-item-disabled .x4-tbar-loading {
-  background-image: url('../../resources/themes/images/default/grid/refresh-disabled.gif') !important; }
+  background-image: url('../themes/images/default/grid/refresh-disabled.gif') !important; }
 /* line 628, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-item-disabled .x4-tbar-page-first {
-  background-image: url('../../resources/themes/images/default/grid/page-first-disabled.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-first-disabled.gif') !important; }
 /* line 632, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-item-disabled .x4-tbar-page-last {
-  background-image: url('../../resources/themes/images/default/grid/page-last-disabled.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-last-disabled.gif') !important; }
 /* line 636, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-item-disabled .x4-tbar-page-next {
-  background-image: url('../../resources/themes/images/default/grid/page-next-disabled.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-next-disabled.gif') !important; }
 /* line 640, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-item-disabled .x4-tbar-page-prev {
-  background-image: url('../../resources/themes/images/default/grid/page-prev-disabled.gif') !important; }
+  background-image: url('../themes/images/default/grid/page-prev-disabled.gif') !important; }
 
 /* line 646, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-hmenu-sort-asc .x4-menu-item-icon {
-  background-image: url('../../resources/themes/images/default/grid/hmenu-asc.gif'); }
+  background-image: url('../themes/images/default/grid/hmenu-asc.gif'); }
 
 /* line 650, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-hmenu-sort-desc .x4-menu-item-icon {
-  background-image: url('../../resources/themes/images/default/grid/hmenu-desc.gif'); }
+  background-image: url('../themes/images/default/grid/hmenu-desc.gif'); }
 
 /* line 654, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-hmenu-lock .x4-menu-item-icon {
-  background-image: url('../../resources/themes/images/default/grid/hmenu-lock.gif'); }
+  background-image: url('../themes/images/default/grid/hmenu-lock.gif'); }
 
 /* line 658, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-hmenu-unlock .x4-menu-item-icon {
-  background-image: url('../../resources/themes/images/default/grid/hmenu-unlock.gif'); }
+  background-image: url('../themes/images/default/grid/hmenu-unlock.gif'); }
 
 /* line 662, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-group-by-icon {
-  background-image: url('../../resources/themes/images/default/grid/group-by.gif'); }
+  background-image: url('../themes/images/default/grid/group-by.gif'); }
 
 /* line 666, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-cols-icon .x4-menu-item-icon {
-  background-image: url('../../resources/themes/images/default/grid/columns.gif'); }
+  background-image: url('../themes/images/default/grid/columns.gif'); }
 
 /* line 670, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-show-groups-icon {
-  background-image: url('../../resources/themes/images/default/grid/group-by.gif'); }
+  background-image: url('../themes/images/default/grid/group-by.gif'); }
 
 /* line 675, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-drop-indicator {
@@ -4219,7 +4219,7 @@ browsers will do whacky things with it.
     position: absolute;
     top: -8px;
     left: -12px;
-    background-image: url('../../resources/themes/images/default/grid/dd-insert-arrow-right.png');
+    background-image: url('../themes/images/default/grid/dd-insert-arrow-right.png');
     height: 16px;
     width: 16px; }
   /* line 691, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -4227,16 +4227,16 @@ browsers will do whacky things with it.
     position: absolute;
     top: -8px;
     right: -11px;
-    background-image: url('../../resources/themes/images/default/grid/dd-insert-arrow-left.png');
+    background-image: url('../themes/images/default/grid/dd-insert-arrow-left.png');
     height: 16px;
     width: 16px; }
 
 /* line 702, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-ie6 .x4-grid-drop-indicator-left {
-  background-image: url('../../resources/themes/images/default/grid/dd-insert-arrow-right.gif'); }
+  background-image: url('../themes/images/default/grid/dd-insert-arrow-right.gif'); }
 /* line 706, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-ie6 .x4-grid-drop-indicator-right {
-  background-image: url('../../resources/themes/images/default/grid/dd-insert-arrow-left.gif'); }
+  background-image: url('../themes/images/default/grid/dd-insert-arrow-left.gif'); }
 
 /* line 714, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-editor .x4-form-text {
@@ -4279,7 +4279,7 @@ browsers will do whacky things with it.
   height: 19px; }
 /* line 761, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-editor .x4-form-trigger-wrap .x4-form-spinner-up, .x4-grid-editor .x4-form-trigger-wrap .x4-form-spinner-down, .x4-grid-row-editor .x4-form-trigger-wrap .x4-form-spinner-up, .x4-grid-row-editor .x4-form-trigger-wrap .x4-form-spinner-down {
-  background-image: url('../../resources/themes/images/default/form/spinner-small.gif');
+  background-image: url('../themes/images/default/form/spinner-small.gif');
   height: 10px !important; }
 
 /* line 768, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -4354,7 +4354,7 @@ browsers will do whacky things with it.
   width: 4px;
   height: 4px;
   bottom: 0px;
-  background-image: url('../../resources/themes/images/default/panel/panel-default-framed-corners.gif'); }
+  background-image: url('../themes/images/default/panel/panel-default-framed-corners.gif'); }
 
 /* line 857, ../themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x4-grid-row-editor-buttons-bl {
@@ -4475,14 +4475,14 @@ browsers will do whacky things with it.
   font: normal 11px tahoma, arial, verdana, sans-serif;
   line-height: 16px;
   background: no-repeat 0 2px;
-  background-image: url('../../resources/themes/images/default/form/exclamation.gif'); }
+  background-image: url('../themes/images/default/form/exclamation.gif'); }
 
 /* line 100, ../themes/stylesheets/ext4/default/widgets/form/_all.scss */
 .x4-form-invalid-icon {
   width: 18px;
   height: 14px;
   background: no-repeat center center;
-  background-image: url('../../resources/themes/images/default/form/exclamation.gif');
+  background-image: url('../themes/images/default/form/exclamation.gif');
   overflow: hidden; }
   /* line 106, ../themes/stylesheets/ext4/default/widgets/form/_all.scss */
   .x4-form-invalid-icon ul {
@@ -4515,7 +4515,7 @@ textarea.x4-form-field {
   background: repeat-x 0 0;
   border: 1px solid;
   background-color: white;
-  background-image: url('../../resources/themes/images/default/form/text-bg.gif');
+  background-image: url('../themes/images/default/form/text-bg.gif');
   border-color: #b5b8c8; }
 
 /* line 36, ../themes/stylesheets/ext4/default/widgets/form/_field.scss */
@@ -4540,7 +4540,7 @@ textarea.x4-form-field {
   line-height: normal;
   background: repeat-x 0 0;
   background-color: white;
-  background-image: url('../../resources/themes/images/default/form/text-bg.gif');
+  background-image: url('../themes/images/default/form/text-bg.gif');
   resize: none; }
 
 /* line 65, ../themes/stylesheets/ext4/default/widgets/form/_field.scss */
@@ -4560,7 +4560,7 @@ textarea.x4-form-focus {
 .x4-form-invalid-field,
 textarea.x4-form-invalid-field {
   background-color: white;
-  background-image: url('../../resources/themes/images/default/grid/invalid_line.gif');
+  background-image: url('../themes/images/default/grid/invalid_line.gif');
   background-repeat: repeat-x;
   background-position: bottom;
   border-color: #cc3300; }
@@ -4774,7 +4774,7 @@ textarea.x4-form-invalid-field {
   width: 13px;
   height: 13px;
   background: no-repeat;
-  background-image: url('../../resources/themes/images/default/form/checkbox.gif');
+  background-image: url('../themes/images/default/form/checkbox.gif');
   overflow: hidden;
   padding: 0;
   border: 0; }
@@ -4807,7 +4807,7 @@ textarea.x4-form-invalid-field {
 /* Radios */
 /* line 54, ../themes/stylesheets/ext4/default/widgets/form/_checkbox.scss */
 .x4-form-radio {
-  background-image: url('../../resources/themes/images/default/form/radio.gif'); }
+  background-image: url('../themes/images/default/form/radio.gif'); }
 
 /* boxLabel */
 /* line 59, ../themes/stylesheets/ext4/default/widgets/form/_checkbox.scss */
@@ -4826,7 +4826,7 @@ textarea.x4-form-invalid-field {
 .x4-form-invalid .x4-form-checkboxgroup-body {
   border: 1px solid #c30!important;
   background: transparent repeat-x bottom;
-  background-image: url('../../resources/themes/images/default/grid/invalid_line.gif');
+  background-image: url('../themes/images/default/grid/invalid_line.gif');
   padding: 1px 3px 0 3px; }
 
 /* line 20, ../themes/stylesheets/ext4/default/widgets/form/_checkboxgroup.scss */
@@ -4848,7 +4848,7 @@ textarea.x4-form-invalid-field {
 
 /* line 10, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-form-trigger {
-  background-image: url('../../resources/themes/images/default/form/trigger.gif');
+  background-image: url('../themes/images/default/form/trigger.gif');
   background-position: 0 0;
   width: 17px;
   height: 21px;
@@ -4934,16 +4934,16 @@ textarea.x4-form-invalid-field {
 
 /* line 87, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-form-arrow-trigger .x4-form-trigger-icon {
-  background-image: url('../../resources/themes/images/default/boundlist/trigger-arrow.png'); }
+  background-image: url('../themes/images/default/boundlist/trigger-arrow.png'); }
 
 /* line 92, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-form-date-trigger {
-  background-image: url('../../resources/themes/images/default/form/date-trigger.gif'); }
+  background-image: url('../themes/images/default/form/date-trigger.gif'); }
 
 /* line 99, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-form-trigger-wrap .x4-form-spinner-up,
 .x4-form-trigger-wrap .x4-form-spinner-down {
-  background-image: url('../../resources/themes/images/default/form/spinner.gif');
+  background-image: url('../themes/images/default/form/spinner.gif');
   width: 17px !important;
   height: 11px !important;
   font-size: 0;
@@ -4972,7 +4972,7 @@ textarea.x4-form-invalid-field {
 /* line 131, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-field-default-toolbar .x4-form-trigger-wrap .x4-form-spinner-up,
 .x4-field-default-toolbar .x4-form-trigger-wrap .x4-form-spinner-down {
-  background-image: url('../../resources/themes/images/default/form/spinner-small.gif');
+  background-image: url('../themes/images/default/form/spinner-small.gif');
   height: 10px !important; }
 /* line 135, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-field-default-toolbar .x4-form-trigger-wrap .x4-form-spinner-down {
@@ -5001,11 +5001,11 @@ textarea.x4-form-invalid-field {
 
 /* line 166, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-form-clear-trigger {
-  background-image: url('../../resources/themes/images/default/form/clear-trigger.gif'); }
+  background-image: url('../themes/images/default/form/clear-trigger.gif'); }
 
 /* line 169, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-form-search-trigger {
-  background-image: url('../../resources/themes/images/default/form/search-trigger.gif'); }
+  background-image: url('../themes/images/default/form/search-trigger.gif'); }
 
 /* line 177, ../themes/stylesheets/ext4/default/widgets/form/_triggerfield.scss */
 .x4-quirks .prefixie6 .x4-form-trigger-input-cell {
@@ -5029,91 +5029,91 @@ textarea.x4-form-invalid-field {
 /* line 20, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-btn-text {
   background: transparent no-repeat;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 26, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-bold,
 .x4-menu-item img.x4-edit-bold {
   background-position: 0 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 32, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-italic,
 .x4-menu-item img.x4-edit-italic {
   background-position: -16px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 38, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-underline,
 .x4-menu-item img.x4-edit-underline {
   background-position: -32px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 44, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-forecolor,
 .x4-menu-item img.x4-edit-forecolor {
   background-position: -160px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 50, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-backcolor,
 .x4-menu-item img.x4-edit-backcolor {
   background-position: -176px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 56, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-justifyleft,
 .x4-menu-item img.x4-edit-justifyleft {
   background-position: -112px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 62, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-justifycenter,
 .x4-menu-item img.x4-edit-justifycenter {
   background-position: -128px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 68, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-justifyright,
 .x4-menu-item img.x4-edit-justifyright {
   background-position: -144px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 74, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-insertorderedlist,
 .x4-menu-item img.x4-edit-insertorderedlist {
   background-position: -80px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 80, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-insertunorderedlist,
 .x4-menu-item img.x4-edit-insertunorderedlist {
   background-position: -96px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 86, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-increasefontsize,
 .x4-menu-item img.x4-edit-increasefontsize {
   background-position: -48px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 92, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-decreasefontsize,
 .x4-menu-item img.x4-edit-decreasefontsize {
   background-position: -64px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 98, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-sourceedit,
 .x4-menu-item img.x4-edit-sourceedit {
   background-position: -192px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 104, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tb .x4-edit-createlink,
 .x4-menu-item img.x4-edit-createlink {
   background-position: -208px 0;
-  background-image: url('../../resources/themes/images/default/editor/tb-sprite.gif'); }
+  background-image: url('../themes/images/default/editor/tb-sprite.gif'); }
 
 /* line 109, ../themes/stylesheets/ext4/default/widgets/form/_htmleditor.scss */
 .x4-html-editor-tip .x4-tip-bd .x4-tip-bd-inner {
@@ -5278,19 +5278,19 @@ textarea.x4-form-invalid-field {
 
 /* line 277, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-top {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-top-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-top-bg.gif'); }
 
 /* line 281, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-bottom {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-bottom-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-bottom-bg.gif'); }
 
 /* line 285, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-left {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-left-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-left-bg.gif'); }
 
 /* line 289, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-right {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-right-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-right-bg.gif'); }
 
 /* line 293, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-right {
@@ -5459,19 +5459,19 @@ textarea.x4-form-invalid-field {
 
 /* line 277, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-framed-top {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-top-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-top-bg.gif'); }
 
 /* line 281, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-framed-bottom {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif'); }
 
 /* line 285, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-framed-left {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-left-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-left-bg.gif'); }
 
 /* line 289, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-framed-right {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-right-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-right-bg.gif'); }
 
 /* line 293, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-nlg .x4-panel-header-default-framed-right {
@@ -5489,22 +5489,22 @@ textarea.x4-form-invalid-field {
 .x4-strict .x4-ie9 .x4-panel-header-default-framed-top,
 .x4-nlg.x4-opera .x4-panel-header-default-framed-top,
 .x4-nlg.x4-safari .x4-panel-header-default-framed-top {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-top-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-top-bg.gif'); }
 /* line 321, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-strict .x4-ie9 .x4-panel-header-default-framed-bottom,
 .x4-nlg.x4-opera .x4-panel-header-default-framed-bottom,
 .x4-nlg.x4-safari .x4-panel-header-default-framed-bottom {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-bottom-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-bottom-bg.gif'); }
 /* line 325, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-strict .x4-ie9 .x4-panel-header-default-framed-left,
 .x4-nlg.x4-opera .x4-panel-header-default-framed-left,
 .x4-nlg.x4-safari .x4-panel-header-default-framed-left {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-left-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-left-bg.gif'); }
 /* line 329, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-strict .x4-ie9 .x4-panel-header-default-framed-right,
 .x4-nlg.x4-opera .x4-panel-header-default-framed-right,
 .x4-nlg.x4-safari .x4-panel-header-default-framed-right {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-right-bg.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-right-bg.gif'); }
 
 /* line 338, ../themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x4-panel-header-text-default-framed {
@@ -5582,12 +5582,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-default-framed-ml,
 .x4-nbr .x4-panel-default-framed-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel/panel-default-framed-corners.gif'); }
+  background-image: url('../themes/images/default/panel/panel-default-framed-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-default-framed-ml,
 .x4-nbr .x4-panel-default-framed-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel/panel-default-framed-sides.gif');
+  background-image: url('../themes/images/default/panel/panel-default-framed-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -5640,7 +5640,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-top-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-top-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-top-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -5665,12 +5665,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-top-ml,
 .x4-nbr .x4-panel-header-default-framed-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-top-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-top-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-top-ml,
 .x4-nbr .x4-panel-header-default-framed-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-top-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-top-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-top-mc {
@@ -5722,7 +5722,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-right-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-right-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-right-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -5747,12 +5747,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-right-ml,
 .x4-nbr .x4-panel-header-default-framed-right-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-right-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-right-corners.gif'); }
 /* line 157, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-right-tc,
 .x4-nbr .x4-panel-header-default-framed-right-bc {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-right-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -5805,7 +5805,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-bottom-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-bottom-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -5830,12 +5830,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-bottom-ml,
 .x4-nbr .x4-panel-header-default-framed-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-bottom-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-bottom-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-bottom-ml,
 .x4-nbr .x4-panel-header-default-framed-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-bottom-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-bottom-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-bottom-mc {
@@ -5887,7 +5887,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-left-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-left-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-left-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -5912,12 +5912,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-left-ml,
 .x4-nbr .x4-panel-header-default-framed-left-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-left-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-left-corners.gif'); }
 /* line 157, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-left-tc,
 .x4-nbr .x4-panel-header-default-framed-left-bc {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-left-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6023,7 +6023,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-collapsed-top-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-top-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6048,12 +6048,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-collapsed-top-ml,
 .x4-nbr .x4-panel-header-default-framed-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-top-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-collapsed-top-ml,
 .x4-nbr .x4-panel-header-default-framed-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-top-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-top-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-collapsed-top-mc {
@@ -6105,7 +6105,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-collapsed-right-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-right-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6130,12 +6130,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-collapsed-right-ml,
 .x4-nbr .x4-panel-header-default-framed-collapsed-right-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-right-corners.gif'); }
 /* line 157, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-collapsed-right-tc,
 .x4-nbr .x4-panel-header-default-framed-collapsed-right-bc {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-right-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6188,7 +6188,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-collapsed-bottom-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6213,12 +6213,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-collapsed-bottom-ml,
 .x4-nbr .x4-panel-header-default-framed-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-collapsed-bottom-ml,
 .x4-nbr .x4-panel-header-default-framed-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-collapsed-bottom-mc {
@@ -6270,7 +6270,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-panel-header-default-framed-collapsed-left-mc {
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-bg.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-left-bg.gif');
   background-color: #cbddf3; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6295,12 +6295,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-panel-header-default-framed-collapsed-left-ml,
 .x4-nbr .x4-panel-header-default-framed-collapsed-left-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-corners.gif'); }
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-left-corners.gif'); }
 /* line 157, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-panel-header-default-framed-collapsed-left-tc,
 .x4-nbr .x4-panel-header-default-framed-collapsed-left-bc {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/panel-header/panel-header-default-framed-collapsed-left-sides.gif');
+  background-image: url('../themes/images/default/panel-header/panel-header-default-framed-collapsed-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-x; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6383,12 +6383,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-tip-ml,
 .x4-nbr .x4-tip-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/tip/tip-corners.gif'); }
+  background-image: url('../themes/images/default/tip/tip-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-tip-ml,
 .x4-nbr .x4-tip-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/tip/tip-sides.gif');
+  background-image: url('../themes/images/default/tip/tip-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6504,7 +6504,7 @@ textarea.x4-form-invalid-field {
 /* line 146, ../themes/stylesheets/ext4/default/widgets/_qtip.scss */
 .x4-form-invalid-tip-body {
   background: 1px 1px no-repeat;
-  background-image: url('../../resources/themes/images/default/form/exclamation.gif');
+  background-image: url('../themes/images/default/form/exclamation.gif');
   padding-left: 22px; }
   /* line 151, ../themes/stylesheets/ext4/default/widgets/_qtip.scss */
   .x4-form-invalid-tip-body li {
@@ -6552,12 +6552,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-form-invalid-tip-default-ml,
 .x4-nbr .x4-form-invalid-tip-default-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/form-invalid-tip/form-invalid-tip-default-corners.gif'); }
+  background-image: url('../themes/images/default/form-invalid-tip/form-invalid-tip-default-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-form-invalid-tip-default-ml,
 .x4-nbr .x4-form-invalid-tip-default-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/form-invalid-tip/form-invalid-tip-default-sides.gif');
+  background-image: url('../themes/images/default/form-invalid-tip/form-invalid-tip-default-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -6678,38 +6678,38 @@ textarea.x4-form-invalid-field {
 .x4-slider-horz,
 .x4-slider-horz .x4-slider-end,
 .x4-slider-horz .x4-slider-inner {
-  background-image: url('../../resources/themes/images/default/slider/slider-bg.png'); }
+  background-image: url('../themes/images/default/slider/slider-bg.png'); }
 
 /* line 111, ../themes/stylesheets/ext4/default/widgets/_slider.scss */
 .x4-slider-horz .x4-slider-thumb {
-  background-image: url('../../resources/themes/images/default/slider/slider-thumb.png'); }
+  background-image: url('../themes/images/default/slider/slider-thumb.png'); }
 
 /* line 117, ../themes/stylesheets/ext4/default/widgets/_slider.scss */
 .x4-slider-vert,
 .x4-slider-vert .x4-slider-end,
 .x4-slider-vert .x4-slider-inner {
-  background-image: url('../../resources/themes/images/default/slider/slider-v-bg.png'); }
+  background-image: url('../themes/images/default/slider/slider-v-bg.png'); }
 
 /* line 121, ../themes/stylesheets/ext4/default/widgets/_slider.scss */
 .x4-slider-vert .x4-slider-thumb {
-  background-image: url('../../resources/themes/images/default/slider/slider-v-thumb.png'); }
+  background-image: url('../themes/images/default/slider/slider-v-thumb.png'); }
 
 /* line 129, ../themes/stylesheets/ext4/default/widgets/_slider.scss */
 .x4-ie6 .x4-slider-horz,
 .x4-ie6 .x4-slider-horz .x4-slider-end,
 .x4-ie6 .x4-slider-horz .x4-slider-inner {
-  background-image: url('../../resources/themes/images/default/slider/slider-bg.gif'); }
+  background-image: url('../themes/images/default/slider/slider-bg.gif'); }
 /* line 133, ../themes/stylesheets/ext4/default/widgets/_slider.scss */
 .x4-ie6 .x4-slider-horz .x4-slider-thumb {
-  background-image: url('../../resources/themes/images/default/slider/slider-thumb.gif'); }
+  background-image: url('../themes/images/default/slider/slider-thumb.gif'); }
 /* line 139, ../themes/stylesheets/ext4/default/widgets/_slider.scss */
 .x4-ie6 .x4-slider-vert,
 .x4-ie6 .x4-slider-vert .x4-slider-end,
 .x4-ie6 .x4-slider-vert .x4-slider-inner {
-  background-image: url('../../resources/themes/images/default/slider/slider-v-bg.gif'); }
+  background-image: url('../themes/images/default/slider/slider-v-bg.gif'); }
 /* line 143, ../themes/stylesheets/ext4/default/widgets/_slider.scss */
 .x4-ie6 .x4-slider-vert .x4-slider-thumb {
-  background-image: url('../../resources/themes/images/default/slider/slider-v-thumb.gif'); }
+  background-image: url('../themes/images/default/slider/slider-v-thumb.gif'); }
 
 /* line 6, ../themes/stylesheets/ext4/default/widgets/_progress-bar.scss */
 .x4-progress {
@@ -6784,7 +6784,7 @@ textarea.x4-form-invalid-field {
 /* line 116, ../themes/stylesheets/ext4/default/widgets/_progress-bar.scss */
 .x4-nlg .x4-progress-default .x4-progress-bar {
   background: repeat-x;
-  background-image: url('../../resources/themes/images/default/progress/progress-default-bg.gif'); }
+  background-image: url('../themes/images/default/progress/progress-default-bg.gif'); }
 
 /* line 6, ../themes/stylesheets/ext4/default/widgets/_toolbar.scss */
 .x4-toolbar {
@@ -6869,7 +6869,7 @@ textarea.x4-form-invalid-field {
 
 /* line 107, ../themes/stylesheets/ext4/default/widgets/_toolbar.scss */
 .x4-toolbar-more-icon {
-  background-image: url('../../resources/themes/images/default/toolbar/more.gif') !important;
+  background-image: url('../themes/images/default/toolbar/more.gif') !important;
   background-position: 2px center !important;
   background-repeat: no-repeat; }
 
@@ -6887,7 +6887,7 @@ textarea.x4-form-invalid-field {
 
 /* line 155, ../themes/stylesheets/ext4/default/widgets/_toolbar.scss */
 .x4-nlg .x4-toolbar-default {
-  background-image: url('../../resources/themes/images/default/toolbar/toolbar-default-bg.gif') !important;
+  background-image: url('../themes/images/default/toolbar/toolbar-default-bg.gif') !important;
   background-repeat: repeat-x; }
 
 /* line 123, ../themes/stylesheets/ext4/default/widgets/_toolbar.scss */
@@ -7072,12 +7072,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-default-ml,
 .x4-nbr .x4-window-default-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window/window-default-corners.gif'); }
+  background-image: url('../themes/images/default/window/window-default-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-default-ml,
 .x4-nbr .x4-window-default-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window/window-default-sides.gif');
+  background-image: url('../themes/images/default/window/window-default-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7168,12 +7168,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-top-ml,
 .x4-nbr .x4-window-header-default-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-top-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-top-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-top-ml,
 .x4-nbr .x4-window-header-default-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-top-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-top-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7243,12 +7243,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-right-ml,
 .x4-nbr .x4-window-header-default-right-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-right-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-right-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-right-ml,
 .x4-nbr .x4-window-header-default-right-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-right-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7318,12 +7318,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-bottom-ml,
 .x4-nbr .x4-window-header-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-bottom-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-bottom-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-bottom-ml,
 .x4-nbr .x4-window-header-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-bottom-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-bottom-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7393,12 +7393,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-left-ml,
 .x4-nbr .x4-window-header-default-left-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-left-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-left-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-left-ml,
 .x4-nbr .x4-window-header-default-left-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-left-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7468,12 +7468,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-collapsed-top-ml,
 .x4-nbr .x4-window-header-default-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-top-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-top-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-collapsed-top-ml,
 .x4-nbr .x4-window-header-default-collapsed-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-top-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-top-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7543,12 +7543,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-collapsed-right-ml,
 .x4-nbr .x4-window-header-default-collapsed-right-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-right-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-right-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-collapsed-right-ml,
 .x4-nbr .x4-window-header-default-collapsed-right-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-right-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-right-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7618,12 +7618,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-collapsed-bottom-ml,
 .x4-nbr .x4-window-header-default-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-bottom-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-bottom-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-collapsed-bottom-ml,
 .x4-nbr .x4-window-header-default-collapsed-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-bottom-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-bottom-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7693,12 +7693,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-window-header-default-collapsed-left-ml,
 .x4-nbr .x4-window-header-default-collapsed-left-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-left-corners.gif'); }
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-left-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-window-header-default-collapsed-left-ml,
 .x4-nbr .x4-window-header-default-collapsed-left-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/window-header/window-header-default-collapsed-left-sides.gif');
+  background-image: url('../themes/images/default/window-header/window-header-default-collapsed-left-sides.gif');
   background-position: 0 0;
   background-repeat: repeat-y; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7766,23 +7766,23 @@ textarea.x4-form-invalid-field {
 
 /* line 23, ../themes/stylesheets/ext4/default/util/_messagebox.scss */
 .x4-message-box .x4-msg-box-wait {
-  background-image: url('../../resources/themes/images/default/shared/blue-loading.gif'); }
+  background-image: url('../themes/images/default/shared/blue-loading.gif'); }
 
 /* line 27, ../themes/stylesheets/ext4/default/util/_messagebox.scss */
 .x4-message-box-info {
-  background-image: url('../../resources/themes/images/default/shared/icon-info.gif'); }
+  background-image: url('../themes/images/default/shared/icon-info.gif'); }
 
 /* line 31, ../themes/stylesheets/ext4/default/util/_messagebox.scss */
 .x4-message-box-warning {
-  background-image: url('../../resources/themes/images/default/shared/icon-warning.gif'); }
+  background-image: url('../themes/images/default/shared/icon-warning.gif'); }
 
 /* line 35, ../themes/stylesheets/ext4/default/util/_messagebox.scss */
 .x4-message-box-question {
-  background-image: url('../../resources/themes/images/default/shared/icon-question.gif'); }
+  background-image: url('../themes/images/default/shared/icon-question.gif'); }
 
 /* line 39, ../themes/stylesheets/ext4/default/util/_messagebox.scss */
 .x4-message-box-error {
-  background-image: url('../../resources/themes/images/default/shared/icon-error.gif'); }
+  background-image: url('../themes/images/default/shared/icon-error.gif'); }
 
 /* line 73, ../themes/stylesheets/ext4/default/widgets/_tabbar.scss */
 .x4-tab-bar {
@@ -7800,7 +7800,7 @@ textarea.x4-form-invalid-field {
 
 /* line 80, ../themes/stylesheets/ext4/default/widgets/_tabbar.scss */
 .x4-nlg .x4-tab-bar {
-  background-image: url('../../resources/themes/images/default/tab-bar/tab-bar-default-bg.gif'); }
+  background-image: url('../themes/images/default/tab-bar/tab-bar-default-bg.gif'); }
 
 /* line 85, ../themes/stylesheets/ext4/default/widgets/_tabbar.scss */
 .x4-tab-bar-default-plain,
@@ -7962,7 +7962,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-tab-default-top-mc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-bg.gif');
+  background-image: url('../themes/images/default/tab/tab-default-top-bg.gif');
   background-color: #deecfd; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -7987,12 +7987,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-tab-default-top-ml,
 .x4-nbr .x4-tab-default-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-tab-default-top-ml,
 .x4-nbr .x4-tab-default-top-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-sides.gif');
+  background-image: url('../themes/images/default/tab/tab-default-top-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-tab-default-top-mc {
@@ -8044,7 +8044,7 @@ textarea.x4-form-invalid-field {
 
 /* line 102, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nlg .x4-tab-default-bottom-mc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-bg.gif');
+  background-image: url('../themes/images/default/tab/tab-default-bottom-bg.gif');
   background-color: #deecfd; }
 
 /* line 115, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
@@ -8069,12 +8069,12 @@ textarea.x4-form-invalid-field {
 .x4-nbr .x4-tab-default-bottom-ml,
 .x4-nbr .x4-tab-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-corners.gif'); }
 /* line 168, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-tab-default-bottom-ml,
 .x4-nbr .x4-tab-default-bottom-mr {
   zoom: 1;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-sides.gif');
+  background-image: url('../themes/images/default/tab/tab-default-bottom-sides.gif');
   background-position: 0 0; }
 /* line 200, ../themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x4-nbr .x4-tab-default-bottom-mc {
@@ -8355,28 +8355,28 @@ textarea.x4-form-invalid-field {
 
 /* line 342, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-top {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-bg.gif'); }
 /* line 343, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-bottom {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-bg.gif'); }
 /* line 347, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-top-over {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-over-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-over-bg.gif'); }
 /* line 348, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-bottom-over {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-over-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-over-bg.gif'); }
 /* line 352, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-top-active {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-active-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-active-bg.gif'); }
 /* line 353, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-bottom-active {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-active-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-active-bg.gif'); }
 /* line 357, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-top-disabled {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-disabled-bg.gif') !important; }
+  background-image: url('../themes/images/default/tab/tab-default-top-disabled-bg.gif') !important; }
 /* line 358, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nlg .x4-tab-bottom-disabled {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-disabled-bg.gif') !important; }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-disabled-bg.gif') !important; }
 
 /* line 363, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-tab-closable em {
@@ -8393,7 +8393,7 @@ textarea.x4-form-invalid-field {
   line-height: 0;
   text-indent: -999px;
   background: no-repeat;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-close.gif');
+  background-image: url('../themes/images/default/tab/tab-default-close.gif');
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6; }
 
@@ -8421,16 +8421,16 @@ a.x4-tab-close-btn:hover {
 .x4-nbr .x4-tab-top-over .x4-frame-br,
 .x4-nbr .x4-tab-top-over .x4-frame-tc,
 .x4-nbr .x4-tab-top-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-over-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-over-corners.gif'); }
 /* line 408, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-over .x4-frame-ml,
 .x4-nbr .x4-tab-top-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-over-sides.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-over-sides.gif'); }
 /* line 412, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-over .x4-frame-mc {
   background-color: #e8f2ff;
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-over-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-over-bg.gif'); }
 /* line 426, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-over .x4-frame-tl,
 .x4-nbr .x4-tab-bottom-over .x4-frame-bl,
@@ -8438,16 +8438,16 @@ a.x4-tab-close-btn:hover {
 .x4-nbr .x4-tab-bottom-over .x4-frame-br,
 .x4-nbr .x4-tab-bottom-over .x4-frame-tc,
 .x4-nbr .x4-tab-bottom-over .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-over-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-over-corners.gif'); }
 /* line 430, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-over .x4-frame-ml,
 .x4-nbr .x4-tab-bottom-over .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-over-sides.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-over-sides.gif'); }
 /* line 434, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-over .x4-frame-mc {
   background-color: #e8f2ff;
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-over-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-over-bg.gif'); }
 /* line 448, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-active .x4-frame-tl,
 .x4-nbr .x4-tab-top-active .x4-frame-bl,
@@ -8455,16 +8455,16 @@ a.x4-tab-close-btn:hover {
 .x4-nbr .x4-tab-top-active .x4-frame-br,
 .x4-nbr .x4-tab-top-active .x4-frame-tc,
 .x4-nbr .x4-tab-top-active .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-active-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-active-corners.gif'); }
 /* line 452, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-active .x4-frame-ml,
 .x4-nbr .x4-tab-top-active .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-active-sides.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-active-sides.gif'); }
 /* line 456, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-active .x4-frame-mc {
   background-color: #deecfd;
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-active-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-active-bg.gif'); }
 /* line 470, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-active .x4-frame-tl,
 .x4-nbr .x4-tab-bottom-active .x4-frame-bl,
@@ -8472,16 +8472,16 @@ a.x4-tab-close-btn:hover {
 .x4-nbr .x4-tab-bottom-active .x4-frame-br,
 .x4-nbr .x4-tab-bottom-active .x4-frame-tc,
 .x4-nbr .x4-tab-bottom-active .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-active-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-active-corners.gif'); }
 /* line 474, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-active .x4-frame-ml,
 .x4-nbr .x4-tab-bottom-active .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-active-sides.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-active-sides.gif'); }
 /* line 478, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-active .x4-frame-mc {
   background-color: #deecfd;
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-active-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-active-bg.gif'); }
 /* line 492, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-disabled .x4-frame-tl,
 .x4-nbr .x4-tab-top-disabled .x4-frame-bl,
@@ -8489,15 +8489,15 @@ a.x4-tab-close-btn:hover {
 .x4-nbr .x4-tab-top-disabled .x4-frame-br,
 .x4-nbr .x4-tab-top-disabled .x4-frame-tc,
 .x4-nbr .x4-tab-top-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-disabled-corners.gif'); }
 /* line 496, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-disabled .x4-frame-ml,
 .x4-nbr .x4-tab-top-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-disabled-sides.gif'); }
 /* line 500, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-top-disabled .x4-frame-mc {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-top-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-top-disabled-bg.gif'); }
 /* line 513, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-tl,
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-bl,
@@ -8505,15 +8505,15 @@ a.x4-tab-close-btn:hover {
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-br,
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-tc,
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-bc {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-disabled-corners.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-disabled-corners.gif'); }
 /* line 517, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-ml,
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-mr {
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-disabled-sides.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-disabled-sides.gif'); }
 /* line 521, ../themes/stylesheets/ext4/default/widgets/_tab.scss */
 .x4-nbr .x4-tab-bottom-disabled .x4-frame-mc {
   background-repeat: repeat-x;
-  background-image: url('../../resources/themes/images/default/tab/tab-default-bottom-disabled-bg.gif'); }
+  background-image: url('../themes/images/default/tab/tab-default-bottom-disabled-bg.gif'); }
 
 /* line 9, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-autowidth-table table.x4-grid-table {
@@ -8589,41 +8589,41 @@ a.x4-tab-close-btn:hover {
 
 /* line 85, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-lines .x4-tree-elbow {
-  background-image: url('../../resources/themes/images/default/tree/elbow.gif'); }
+  background-image: url('../themes/images/default/tree/elbow.gif'); }
 /* line 89, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-lines .x4-tree-elbow-end {
-  background-image: url('../../resources/themes/images/default/tree/elbow-end.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-end.gif'); }
 /* line 93, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-lines .x4-tree-elbow-plus {
-  background-image: url('../../resources/themes/images/default/tree/elbow-plus.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-plus.gif'); }
 /* line 97, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-lines .x4-tree-elbow-end-plus {
-  background-image: url('../../resources/themes/images/default/tree/elbow-end-plus.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-end-plus.gif'); }
 /* line 101, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-lines .x4-grid-tree-node-expanded .x4-tree-elbow-plus {
-  background-image: url('../../resources/themes/images/default/tree/elbow-minus.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-minus.gif'); }
 /* line 105, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-lines .x4-grid-tree-node-expanded .x4-tree-elbow-end-plus {
-  background-image: url('../../resources/themes/images/default/tree/elbow-end-minus.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-end-minus.gif'); }
 /* line 109, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-lines .x4-tree-elbow-line {
-  background-image: url('../../resources/themes/images/default/tree/elbow-line.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-line.gif'); }
 
 /* line 116, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-no-lines .x4-tree-elbow-plus,
 .x4-tree-no-lines .x4-tree-elbow-end-plus {
-  background-image: url('../../resources/themes/images/default/tree/elbow-plus-nl.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-plus-nl.gif'); }
 /* line 121, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-no-lines .x4-grid-tree-node-expanded .x4-tree-elbow-plus,
 .x4-tree-no-lines .x4-grid-tree-node-expanded .x4-tree-elbow-end-plus {
-  background-image: url('../../resources/themes/images/default/tree/elbow-end-minus-nl.gif'); }
+  background-image: url('../themes/images/default/tree/elbow-end-minus-nl.gif'); }
 
 /* line 130, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-arrows .x4-tree-elbow-plus,
 .x4-tree-arrows .x4-tree-elbow-minus,
 .x4-tree-arrows .x4-tree-elbow-end-plus,
 .x4-tree-arrows .x4-tree-elbow-end-minus {
-  background-image: url('../../resources/themes/images/default/tree/arrows.gif'); }
+  background-image: url('../themes/images/default/tree/arrows.gif'); }
 
 /* line 135, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-icon {
@@ -8656,16 +8656,16 @@ a.x4-tab-close-btn:hover {
 /* line 165, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-icon-leaf {
   width: 16px;
-  background-image: url('../../resources/themes/images/default/tree/leaf.gif'); }
+  background-image: url('../themes/images/default/tree/leaf.gif'); }
 
 /* line 170, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-icon-parent {
   width: 16px;
-  background-image: url('../../resources/themes/images/default/tree/folder.gif'); }
+  background-image: url('../themes/images/default/tree/folder.gif'); }
 
 /* line 175, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-grid-tree-node-expanded .x4-tree-icon-parent {
-  background-image: url('../../resources/themes/images/default/tree/folder-open.gif'); }
+  background-image: url('../themes/images/default/tree/folder-open.gif'); }
 
 /* line 179, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-grid-rowbody {
@@ -8720,7 +8720,7 @@ a.x4-tab-close-btn:hover {
   width: 13px;
   height: 13px;
   background: no-repeat;
-  background-image: url('../../resources/themes/images/default/form/checkbox.gif');
+  background-image: url('../themes/images/default/form/checkbox.gif');
   overflow: hidden;
   padding: 0;
   border: 0; }
@@ -8739,23 +8739,23 @@ a.x4-tab-close-btn:hover {
 
 /* line 261, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-drop-ok-append .x4-dd-drop-icon {
-  background-image: url('../../resources/themes/images/default/tree/drop-append.gif'); }
+  background-image: url('../themes/images/default/tree/drop-append.gif'); }
 
 /* line 265, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-drop-ok-above .x4-dd-drop-icon {
-  background-image: url('../../resources/themes/images/default/tree/drop-above.gif'); }
+  background-image: url('../themes/images/default/tree/drop-above.gif'); }
 
 /* line 269, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-drop-ok-below .x4-dd-drop-icon {
-  background-image: url('../../resources/themes/images/default/tree/drop-below.gif'); }
+  background-image: url('../themes/images/default/tree/drop-below.gif'); }
 
 /* line 273, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-drop-ok-between .x4-dd-drop-icon {
-  background-image: url('../../resources/themes/images/default/tree/drop-between.gif'); }
+  background-image: url('../themes/images/default/tree/drop-between.gif'); }
 
 /* line 277, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-grid-tree-loading .x4-tree-icon {
-  background-image: url('../../resources/themes/images/default/tree/loading.gif'); }
+  background-image: url('../themes/images/default/tree/loading.gif'); }
 
 /* line 281, ../themes/stylesheets/ext4/default/widgets/_tree.scss */
 .x4-tree-ddindicator {
@@ -8904,15 +8904,15 @@ svg, vml {
 
 /* line 66, ../themes/stylesheets/ext4/default/util/_dragdrop.scss */
 .x4-dd-drop-nodrop .x4-dd-drop-icon {
-  background-image: url('../../resources/themes/images/default/dd/drop-no.gif'); }
+  background-image: url('../themes/images/default/dd/drop-no.gif'); }
 
 /* line 70, ../themes/stylesheets/ext4/default/util/_dragdrop.scss */
 .x4-dd-drop-ok .x4-dd-drop-icon {
-  background-image: url('../../resources/themes/images/default/dd/drop-yes.gif'); }
+  background-image: url('../themes/images/default/dd/drop-yes.gif'); }
 
 /* line 74, ../themes/stylesheets/ext4/default/util/_dragdrop.scss */
 .x4-dd-drop-ok-add .x4-dd-drop-icon {
-  background-image: url('../../resources/themes/images/default/dd/drop-add.gif'); }
+  background-image: url('../themes/images/default/dd/drop-add.gif'); }
 
 /* line 2, ../themes/stylesheets/ext4/default/util/_resizable.scss */
 .x4-resizable-handle {
@@ -9073,34 +9073,34 @@ svg, vml {
 .x4-resizable-pinned .x4-resizable-handle-east,
 .x4-resizable-pinned .x4-resizable-handle-west {
   background-position: left;
-  background-image: url('../../resources/themes/images/default/sizer/e-handle.gif'); }
+  background-image: url('../themes/images/default/sizer/e-handle.gif'); }
 /* line 196, ../themes/stylesheets/ext4/default/util/_resizable.scss */
 .x4-resizable-over .x4-resizable-handle-south,
 .x4-resizable-over .x4-resizable-handle-north,
 .x4-resizable-pinned .x4-resizable-handle-south,
 .x4-resizable-pinned .x4-resizable-handle-north {
   background-position: top;
-  background-image: url('../../resources/themes/images/default/sizer/s-handle.gif'); }
+  background-image: url('../themes/images/default/sizer/s-handle.gif'); }
 /* line 201, ../themes/stylesheets/ext4/default/util/_resizable.scss */
 .x4-resizable-over .x4-resizable-handle-southeast,
 .x4-resizable-pinned .x4-resizable-handle-southeast {
   background-position: top left;
-  background-image: url('../../resources/themes/images/default/sizer/se-handle.gif'); }
+  background-image: url('../themes/images/default/sizer/se-handle.gif'); }
 /* line 206, ../themes/stylesheets/ext4/default/util/_resizable.scss */
 .x4-resizable-over .x4-resizable-handle-northwest,
 .x4-resizable-pinned .x4-resizable-handle-northwest {
   background-position: bottom right;
-  background-image: url('../../resources/themes/images/default/sizer/nw-handle.gif'); }
+  background-image: url('../themes/images/default/sizer/nw-handle.gif'); }
 /* line 211, ../themes/stylesheets/ext4/default/util/_resizable.scss */
 .x4-resizable-over .x4-resizable-handle-northeast,
 .x4-resizable-pinned .x4-resizable-handle-northeast {
   background-position: bottom left;
-  background-image: url('../../resources/themes/images/default/sizer/ne-handle.gif'); }
+  background-image: url('../themes/images/default/sizer/ne-handle.gif'); }
 /* line 216, ../themes/stylesheets/ext4/default/util/_resizable.scss */
 .x4-resizable-over .x4-resizable-handle-southwest,
 .x4-resizable-pinned .x4-resizable-handle-southwest {
   background-position: top right;
-  background-image: url('../../resources/themes/images/default/sizer/sw-handle.gif'); }
+  background-image: url('../themes/images/default/sizer/sw-handle.gif'); }
 
 /* line 3, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-splitter .x4-collapse-el {
@@ -9128,39 +9128,39 @@ svg, vml {
 /* line 33, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-layout-split-left {
   background: no-repeat top right;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-left.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-left.gif'); }
 
 /* line 38, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-layout-split-right {
   background: no-repeat top left;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-right.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-right.gif'); }
 
 /* line 43, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-layout-split-top {
   background: no-repeat top left;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-top.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-top.gif'); }
 
 /* line 48, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-layout-split-bottom {
   background: no-repeat top left;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-bottom.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-bottom.gif'); }
 
 /* line 54, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-splitter-collapsed .x4-layout-split-left {
   background: no-repeat top left;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-right.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-right.gif'); }
 /* line 59, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-splitter-collapsed .x4-layout-split-right {
   background: no-repeat top right;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-left.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-left.gif'); }
 /* line 64, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-splitter-collapsed .x4-layout-split-top {
   background: no-repeat top left;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-bottom.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-bottom.gif'); }
 /* line 69, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-splitter-collapsed .x4-layout-split-bottom {
   background: no-repeat top left;
-  background-image: url('../../resources/themes/images/default/util/splitter/mini-top.gif'); }
+  background-image: url('../themes/images/default/util/splitter/mini-top.gif'); }
 
 /* line 75, ../themes/stylesheets/ext4/default/util/_splitter.scss */
 .x4-splitter-horizontal {
@@ -9390,7 +9390,7 @@ svg, vml {
     cursor: pointer;
     height: 20px;
     background: transparent no-repeat -18px 0;
-    background-image: url('../../resources/themes/images/default/tab-bar/scroll-left.gif'); }
+    background-image: url('../themes/images/default/tab-bar/scroll-left.gif'); }
   /* line 203, ../themes/stylesheets/ext4/default/layout/_layout.scss */
   .x4-box-scroller-left .x4-toolbar-scroll-left-hover {
     background-position: 0 0; }
@@ -9403,7 +9403,7 @@ svg, vml {
     cursor: default; }
   /* line 214, ../themes/stylesheets/ext4/default/layout/_layout.scss */
   .x4-box-scroller-left .x4-toolbar-scroll-left {
-    background-image: url('../../resources/themes/images/default/toolbar/scroll-left.gif');
+    background-image: url('../themes/images/default/toolbar/scroll-left.gif');
     background-position: -14px 0; }
   /* line 218, ../themes/stylesheets/ext4/default/layout/_layout.scss */
   .x4-box-scroller-left .x4-toolbar-scroll-left-hover {
@@ -9434,7 +9434,7 @@ svg, vml {
     cursor: pointer;
     height: 20px;
     background: transparent no-repeat 0 0;
-    background-image: url('../../resources/themes/images/default/tab-bar/scroll-right.gif'); }
+    background-image: url('../themes/images/default/tab-bar/scroll-right.gif'); }
   /* line 251, ../themes/stylesheets/ext4/default/layout/_layout.scss */
   .x4-box-scroller-right .x4-toolbar-scroll-right-hover {
     background-position: -18px 0; }
@@ -9447,7 +9447,7 @@ svg, vml {
     cursor: default; }
   /* line 262, ../themes/stylesheets/ext4/default/layout/_layout.scss */
   .x4-box-scroller-right .x4-toolbar-scroll-right {
-    background-image: url('../../resources/themes/images/default/toolbar/scroll-right.gif'); }
+    background-image: url('../themes/images/default/toolbar/scroll-right.gif'); }
   /* line 265, ../themes/stylesheets/ext4/default/layout/_layout.scss */
   .x4-box-scroller-right .x4-toolbar-scroll-right-hover {
     background-position: -14px 0; }
@@ -9467,7 +9467,7 @@ svg, vml {
 /* line 286, ../themes/stylesheets/ext4/default/layout/_layout.scss */
 .x4-box-scroller-top .x4-menu-scroll-top {
   background: transparent no-repeat center center;
-  background-image: url('../../resources/themes/images/default/layout/mini-top.gif');
+  background-image: url('../themes/images/default/layout/mini-top.gif');
   height: 8px;
   cursor: pointer; }
 
@@ -9478,7 +9478,7 @@ svg, vml {
 /* line 298, ../themes/stylesheets/ext4/default/layout/_layout.scss */
 .x4-box-scroller-bottom .x4-menu-scroll-bottom {
   background: transparent no-repeat center center;
-  background-image: url('../../resources/themes/images/default/layout/mini-bottom.gif');
+  background-image: url('../themes/images/default/layout/mini-bottom.gif');
   height: 8px;
   cursor: pointer; }
 
@@ -9511,7 +9511,7 @@ svg, vml {
     cursor: pointer;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-image: url('../../resources/themes/images/default/tools/tool-sprites.gif');
+    background-image: url('../themes/images/default/tools/tool-sprites.gif');
     margin: 0; }
 
 /* line 23, ../themes/stylesheets/ext4/default/util/_tool.scss */
