@@ -1,6 +1,3 @@
-<%
-    Thread.sleep(5000);
-%>
 {
     "success": true,
     "data": [

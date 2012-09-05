@@ -5,7 +5,7 @@ Ext.define('UserManager.store.Users', {
     proxy:{
         type: 'ajax',
         api: {
-            read: 'data/users.jsp',
+            read: 'data/users.json',
             update: 'data/updateUsers.json'
         },
         reader: {

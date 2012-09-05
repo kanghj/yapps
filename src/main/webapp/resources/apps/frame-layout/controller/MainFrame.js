@@ -29,7 +29,7 @@ Ext.define('FrameLayout.controller.MainFrame', {
             tabs.add({
                 xtype:'uxiframe',
                 title: text,
-                src:'/demo/apps/user-manager.jsp',
+                src:'user-manager.html',
                 closable:true,
                 id:id,
                 itemId: id
