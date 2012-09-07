@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vouov.yapps.dao.RoleGroupMapper" >
+  <resultMap id="BaseResultMap" type="com.vouov.yapps.model.RoleGroup" >
+    <id column="roleGroupID" property="roleGroupID" jdbcType="INTEGER" />
+    <result column="roleID" property="roleID" jdbcType="INTEGER" />
+    <result column="groupID" property="groupID" jdbcType="INTEGER" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from role_group
+    where roleGroupID = #{roleGroupID,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.vouov.yapps.model.RoleGroup" >
+    insert into role_group (roleGroupID, roleID, groupID
+      )
+    values (#{roleGroupID,jdbcType=INTEGER}, #{roleID,jdbcType=INTEGER}, #{groupID,jdbcType=INTEGER}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.vouov.yapps.model.RoleGroup" >
+    update role_group
+    set roleID = #{roleID,jdbcType=INTEGER},
+      groupID = #{groupID,jdbcType=INTEGER}
+    where roleGroupID = #{roleGroupID,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select roleGroupID, roleID, groupID
+    from role_group
+    where roleGroupID = #{roleGroupID,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select roleGroupID, roleID, groupID
+    from role_group
+  </select>
+</mapper>

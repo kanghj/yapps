@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vouov.yapps.dao.RolePermissionMapper" >
+  <resultMap id="BaseResultMap" type="com.vouov.yapps.model.RolePermission" >
+    <id column="rolePermissionID" property="rolePermissionID" jdbcType="INTEGER" />
+    <result column="roleID" property="roleID" jdbcType="INTEGER" />
+    <result column="permissionID" property="permissionID" jdbcType="INTEGER" />
+    <result column="grant" property="grant" jdbcType="BIT" />
+    <result column="status" property="status" jdbcType="BIT" />
+    <result column="createTime" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="updateTime" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from role_permission
+    where rolePermissionID = #{rolePermissionID,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.vouov.yapps.model.RolePermission" >
+    insert into role_permission (rolePermissionID, roleID, permissionID, 
+      grant, status, createTime, 
+      updateTime)
+    values (#{rolePermissionID,jdbcType=INTEGER}, #{roleID,jdbcType=INTEGER}, #{permissionID,jdbcType=INTEGER}, 
+      #{grant,jdbcType=BIT}, #{status,jdbcType=BIT}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.vouov.yapps.model.RolePermission" >
+    update role_permission
+    set roleID = #{roleID,jdbcType=INTEGER},
+      permissionID = #{permissionID,jdbcType=INTEGER},
+      grant = #{grant,jdbcType=BIT},
+      status = #{status,jdbcType=BIT},
+      createTime = #{createTime,jdbcType=TIMESTAMP},
+      updateTime = #{updateTime,jdbcType=TIMESTAMP}
+    where rolePermissionID = #{rolePermissionID,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select rolePermissionID, roleID, permissionID, grant, status, createTime, updateTime
+    from role_permission
+    where rolePermissionID = #{rolePermissionID,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select rolePermissionID, roleID, permissionID, grant, status, createTime, updateTime
+    from role_permission
+  </select>
+</mapper>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vouov.yapps.dao.PermissionGroupMapper" >
+  <resultMap id="BaseResultMap" type="com.vouov.yapps.model.PermissionGroup" >
+    <id column="permissionGroupID" property="permissionGroupID" jdbcType="INTEGER" />
+    <result column="permissionID" property="permissionID" jdbcType="INTEGER" />
+    <result column="groupID" property="groupID" jdbcType="INTEGER" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from permission_group
+    where permissionGroupID = #{permissionGroupID,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.vouov.yapps.model.PermissionGroup" >
+    insert into permission_group (permissionGroupID, permissionID, 
+      groupID)
+    values (#{permissionGroupID,jdbcType=INTEGER}, #{permissionID,jdbcType=INTEGER}, 
+      #{groupID,jdbcType=INTEGER})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.vouov.yapps.model.PermissionGroup" >
+    update permission_group
+    set permissionID = #{permissionID,jdbcType=INTEGER},
+      groupID = #{groupID,jdbcType=INTEGER}
+    where permissionGroupID = #{permissionGroupID,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select permissionGroupID, permissionID, groupID
+    from permission_group
+    where permissionGroupID = #{permissionGroupID,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select permissionGroupID, permissionID, groupID
+    from permission_group
+  </select>
+</mapper>
