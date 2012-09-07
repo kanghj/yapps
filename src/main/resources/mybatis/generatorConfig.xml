@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="Mysql2Tables" targetRuntime="MyBatis3Simple">
+        <plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">
+            <property name="searchString" value="Example$"/>
+            <property name="replaceString" value="Criteria"/>
+        </plugin>
+
+        <!-- 去掉注释 -->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/yapps"
+                        userId="root"
+                        password="">
+        </jdbcConnection>
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.vouov.yapps.model" targetProject="G:/workspace/yapps/src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="false"/>
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="mybatis.mapper" targetProject="G:/workspace/yapps/src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.vouov.yapps.dao"
+                             targetProject="G:/workspace/yapps/src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!--<table schema="DB2ADMIN" tableName="ALLTYPES" domainObjectName="Customer">
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="ID" sqlStatement="DB2" identity="true"/>
+            <columnOverride column="DATE_FIELD" property="startDate"/>
+            <ignoreColumn column="FRED"/>
+            <columnOverride column="LONG_VARCHAR_FIELD" jdbcType="VARCHAR"/>
+        </table>-->
+
+
+        <table tableName="user" domainObjectName="User">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="user_group" domainObjectName="UserGroup">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="user_role" domainObjectName="UserRole">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="user_permission" domainObjectName="UserPermission">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="user_organization" domainObjectName="UserOrganization">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="role" domainObjectName="Role">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="role_permission" domainObjectName="RolePermission">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="role_group" domainObjectName="RoleGroup">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="permission" domainObjectName="Permission">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="permission_group" domainObjectName="PermissionGroup">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="organization" domainObjectName="Organization">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="group" domainObjectName="Group">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table tableName="menu" domainObjectName="Menu">
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+    </context>
+</generatorConfiguration>

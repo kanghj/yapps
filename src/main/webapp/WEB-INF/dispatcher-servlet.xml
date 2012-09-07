@@ -16,7 +16,7 @@
     <mvc:annotation-driven/>
 
     <!-- Forwards requests to the "/" resource to the "welcome" view -->
-    <mvc:view-controller path="/" view-name="index"/>
+    <!--<mvc:view-controller path="/" view-name="index"/>-->
 
     <!-- Configures Handler Interceptors -->
     <mvc:interceptors>
@@ -33,7 +33,7 @@
 
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" abstract="false"
           scope="singleton" lazy-init="default">
-        <property name="basename" value="i18n/messages"/>
+        <property name="basename" value="i18n.messages"/>
     </bean>
 
     <!-- Resolves view names to protected .jsp resources within the /WEB-INF/views directory -->
