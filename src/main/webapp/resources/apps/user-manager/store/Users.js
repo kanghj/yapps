@@ -5,14 +5,15 @@ Ext.define('UserManager.store.Users', {
     proxy:{
         type: 'ajax',
         api: {
-            read: 'data/users.json',
+            read: '../../manager/user/search.do',
             update: 'data/updateUsers.json'
         },
         reader: {
             type: 'json',
             successProperty: 'success',
+            messageProperty: 'message',
             root: 'data',
-            messageProperty: 'message'
+            totalProperty: 'total'
         },
         writer: {
             type: 'json',

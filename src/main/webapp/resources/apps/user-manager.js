@@ -11,8 +11,7 @@ Ext.application({
             layout: 'fit',
             items: [
                 {
-                    xtype: 'userlist',
-                    title: 'Users'
+                    xtype: 'userlist'
                 }
             ]
         });

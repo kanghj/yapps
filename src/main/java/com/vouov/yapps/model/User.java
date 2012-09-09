@@ -1,5 +1,9 @@
 package com.vouov.yapps.model;
 
+import com.vouov.yapps.json.serializer.DateTimeSerializer;
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+
 import java.util.Date;
 
 public class User {
@@ -7,6 +11,7 @@ public class User {
 
     private String loginName;
 
+    @JsonIgnore
     private String password;
 
     private String userName;
@@ -15,14 +20,15 @@ public class User {
 
     private String email;
 
+    @JsonSerialize(using = DateTimeSerializer.class)
     private Date lastLoginTime;
 
     private Integer failLoginCount;
 
     private Boolean status;
-
+    @JsonSerialize(using = DateTimeSerializer.class)
     private Date createTime;
-
+    @JsonSerialize(using = DateTimeSerializer.class)
     private Date updateTime;
 
     public Integer getUserID() {

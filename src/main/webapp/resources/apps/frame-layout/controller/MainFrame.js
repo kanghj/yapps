@@ -15,6 +15,8 @@ Ext.define('FrameLayout.controller.MainFrame', {
         var treeNode=record.raw;
         var id = treeNode.id;
         var text=treeNode.text;
+        var url = treeNode.url;
+        if(!record.isLeaf()) return;
         //获取点击的树节点相同的tab标签
         var tab = tabs.getComponent(id);
         if(!tab){//如果不存在
@@ -29,12 +31,12 @@ Ext.define('FrameLayout.controller.MainFrame', {
             tabs.add({
                 xtype:'uxiframe',
                 title: text,
-                src:'user-manager.html',
+                src: url,
                 closable:true,
                 id:id,
                 itemId: id
             }).show();
-           // tabs.setActiveTab(tabs.getComponent(id));
+           tabs.setActiveTab(tabs.getComponent(id));
         }else{//如果存在
             tabs.setActiveTab(tab)//Active
         }
