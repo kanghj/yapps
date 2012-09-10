@@ -32,22 +32,22 @@ Ext.define('UserManager.view.UserList' ,{
         items: [
             {
                 text : '新增',
-                iconCls : 'add'
+                iconCls : 'icon-add'
             }, {
                 text : '修改',
-                iconCls : 'modify'
+                iconCls : 'icon-modify'
             }, {
                 text : '删除',
-                iconCls : 'delete'
+                iconCls : 'icon-delete'
             }, '-', {
                 text : '导出PDF',
-                iconCls : 'pdf'
+                iconCls : 'icon-pdf'
             }, {
                 text : '导出Excel',
-                iconCls : 'excel'
+                iconCls : 'icon-page_excel'
             }, '-', {
                 text : '打印',
-                iconCls : 'print'
+                iconCls : 'icon-printer'
             }
        ]
     },
@@ -83,7 +83,7 @@ Ext.define('UserManager.view.UserList' ,{
             '-' ,
             {
                 text:'刷新数据',
-                iconCls:'icon-refresh',
+                iconCls:'icon-table_refresh',
                 handler:function () {
                   /*  var panelStore = this.up("panel").getStore();
                     var currPage = panelStore.currentPage;
