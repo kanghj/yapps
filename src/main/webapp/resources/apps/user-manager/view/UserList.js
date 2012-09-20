@@ -14,7 +14,7 @@ Ext.define('UserManager.view.UserList' ,{
             {header: '电子邮箱', dataIndex: 'email', width:180},
             {header: '最近登录时间', dataIndex: 'lastLoginTime',width:140},
             {header: '登录失败次数', dataIndex: 'failLoginCount', width:80},
-            {header: '状态', dataIndex: 'status', width:50},
+            {header: '状态', dataIndex: 'status', width:50, xtype:'booleancolumn', trueText: '正常', falseText: '暂停'  },
             {header: '创建时间', dataIndex: 'createTime', width:140},
             {header: '最近更新', dataIndex: 'updateTime',width:140}
         ];
@@ -27,7 +27,8 @@ Ext.define('UserManager.view.UserList' ,{
         this.callParent(arguments);
     },
 
-    dockedItems: [{
+    dockedItems: [
+        {
         xtype: 'toolbar',
         items: [
             {
@@ -35,16 +36,16 @@ Ext.define('UserManager.view.UserList' ,{
                 iconCls : 'icon-add'
             }, {
                 text : '修改',
-                iconCls : 'icon-modify'
+                iconCls : 'icon-pencil'
             }, {
                 text : '删除',
                 iconCls : 'icon-delete'
             }, '-', {
                 text : '导出PDF',
-                iconCls : 'icon-pdf'
+                iconCls : 'icon-page_white_acrobat'
             }, {
                 text : '导出Excel',
-                iconCls : 'icon-page_excel'
+                iconCls : 'icon-page_white_excel'
             }, '-', {
                 text : '打印',
                 iconCls : 'icon-printer'
