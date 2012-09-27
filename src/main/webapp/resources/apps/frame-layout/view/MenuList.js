@@ -18,7 +18,7 @@ Ext.define('FrameLayout.view.MenuList', {
                         children:[
                             { text:"用户管理",url:"user-manager.html" ,leaf:true, id:'id2'},
                             { text:"角色管理", leaf:true, id:'id3'},
-                            { text:"权限管理", leaf:true, id:'id4'},
+                            { text:"权限管理",url:"permission-manager.html" , leaf:true, id:'id4'},
                             { text:"组织管理", leaf:true, id:'id5'},
                             { text:"菜单管理", leaf:true, id:'id6'},
                             { text:"系统设置", leaf:true, id:'id7'},

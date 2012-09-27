@@ -12,11 +12,11 @@ Ext.define('UserManager.view.UserList' ,{
             {header: '姓名', dataIndex: 'userName', width:60},
             {header: '联系方式', dataIndex: 'mobile', width:140},
             {header: '电子邮箱', dataIndex: 'email', width:180},
-            {header: '最近登录时间', dataIndex: 'lastLoginTime',width:140},
+            {header: '最近登录时间',renderer : Ext.util.Format.dateRenderer('Y-m-d H:i:s'), dataIndex: 'lastLoginTime',width:140},
             {header: '登录失败次数', dataIndex: 'failLoginCount', width:80},
             {header: '状态', dataIndex: 'status', width:50, xtype:'booleancolumn', trueText: '正常', falseText: '暂停'  },
-            {header: '创建时间', dataIndex: 'createTime', width:140},
-            {header: '最近更新', dataIndex: 'updateTime',width:140}
+            {header: '创建时间',renderer : Ext.util.Format.dateRenderer('Y-m-d H:i:s'), dataIndex: 'createTime', width:140},
+            {header: '最近更新',renderer : Ext.util.Format.dateRenderer('Y-m-d H:i:s'), dataIndex: 'updateTime',width:140}
         ];
         // paging bar on the bottom
         this.bbar = Ext.create('Ext.PagingToolbar', {
