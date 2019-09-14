@@ -33,8 +33,12 @@ public class AESUtils {
         SecretKey secretKey = keyGenerator.generateKey();
         byte[] encoded = secretKey.getEncoded();
         SecretKeySpec secretKeySpec = new SecretKeySpec(encoded, "AES");
-        Cipher cipher = Cipher.getInstance("AES");// 创建密码器
-        cipher.init(mode, secretKeySpec);// 初始化
+        Cipher cipher = Cipher.getInstance("AES/CBC/PKCS7Padding");// 创建密码器
+        int AES_KEYLENGTH = 128;
+        byte[] iv = new byte[AES_KEYLENGTH / 8];
+        SecureRandom secureRandom = new SecureRandom();
+        secureRandom.nextBytes(iv);
+        cipher.init(mode, secretKeySpec, new IvParameterSpec(iv));// 初始化
         return cipher.doFinal(textBytes);
     }
 
